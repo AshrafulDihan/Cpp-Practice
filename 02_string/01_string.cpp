@@ -3,6 +3,7 @@
 //
 #include<iostream>
 #include<string>
+#include<bits\stdc++.h>
 
 int main() {
 
@@ -12,7 +13,7 @@ int main() {
     std::cout<<"Enter your District: ";
     std::cin>>district;
 
-    int lengthName = name.length();
+    int lengthName = name.size();
     int lengthDistrict = district.length();
 
     std::cout<<"\nHe is "<< name <<"."<<std::endl;

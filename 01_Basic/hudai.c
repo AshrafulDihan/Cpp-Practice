@@ -1,3 +1,5 @@
-//
-// Created by USER on 10/29/2025.
-//
+#include<stdio.h>
+#include<string.h>
+int main(){
+
+}

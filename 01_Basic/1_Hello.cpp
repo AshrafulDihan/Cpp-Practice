@@ -3,11 +3,12 @@
 //
 
 #include<iostream>
+using namespace std;
 
 int main() {
 
-    std::cout<<"Hello Dihan\n"; //Here \n(new line) needs to be mentioned.
-    std::cout<<"Hello this is my first c++ program"<<std::endl;//Adds new line (Pressing enter)
+    cout<<"Hello Dihan\n"; //Here \n(new line) needs to be mentioned.
+    cout<<"Hello this is my first c++ program"<<endl;//Adds new line (Pressing enter)
 
     return 0;
 }

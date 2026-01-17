@@ -6,11 +6,17 @@
 #include<string>
 
 int main() {
+    //String input
+    std::string university;
+    std::cout<<"Enter your University name: ";
+    std::getline(std::cin , university);
+
     //Add strings
     std::string firstName = "Ashraful";
     std::string lastName = "Dihan";
     std::string FullName = firstName + " " + lastName ;
-    std::cout<< FullName<<std::endl;//Ashraful Dihan
+    std::cout<< "Full Name - "<< FullName<<std::endl;//Ashraful Dihan
+    std::cout<<"University -"<<university <<std::endl;
 
     //Adding Numbers and Strings
     std::string x = "10";
